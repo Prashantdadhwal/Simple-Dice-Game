@@ -1,0 +1,61 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+  
+  body {
+    /* background-color: #393E46; */
+    background-color: black;
+  }
+  
+  h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 7rem;
+    color: #4ECCA3;
+  }
+  
+  p {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  img {
+    width: 80%;
+  }
+#p1{
+    color: red;
+}
+#p2{
+    color: blue;
+}
+
+#rollDiceButton {
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    background-color: #4ECCA3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    margin: 5% auto 0 auto;
+    display: block;
+    border-radius: 30px;
+}
+
+#rollDiceButton:hover {
+    color: #3BAF8A;
+    background-color: white;
+}
